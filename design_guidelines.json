@@ -1,0 +1,162 @@
+{
+  "project_info": {
+    "brand_name": "ATLAS Nettoyage Multiservice",
+    "slogan": "Propreté · Confiance · Excellence",
+    "tagline": "Un service professionnel, fiable et sur lequel vous pouvez compter !",
+    "contact": {
+      "name": "Jarboui Fouad",
+      "phones": ["514 476 0700", "514-867-3656"],
+      "email": "atlasmultiservicenettoyage@gmail.com",
+      "location": "Montréal, Québec",
+      "whatsapp": "5144760700"
+    },
+    "meta": {
+      "title": "ATLAS Nettoyage Multiservice | Montréal",
+      "description": "Services de nettoyage professionnel, résidentiel et commercial à Montréal. Propreté, confiance et excellence. Écologique et responsable.",
+      "og_image": "https://customer-assets.emergentagent.com/job_instant-web-builder-19/artifacts/jz2x8r9e_image.png",
+      "favicon_text": "AT",
+      "instructions": "CRITICAL: Do NOT include any 'Made with emergent' badges or texts anywhere. Update public/index.html metadata (title, description, og:image, og:title, og:description) to match Atlas Nettoyage Multiservice. Ensure no default emergent metadata remains."
+    }
+  },
+  "theme": {
+    "archetype": "Archetype 4 (Swiss & High-Contrast)",
+    "mode": "light",
+    "colors": {
+      "background": "#FAFAFA",
+      "foreground": "#0A1128",
+      "primary": {
+        "DEFAULT": "#0A1128",
+        "foreground": "#FAFAFA"
+      },
+      "accent": {
+        "DEFAULT": "#A3E635",
+        "foreground": "#0A1128"
+      },
+      "secondary": {
+        "DEFAULT": "#F1F5F9",
+        "foreground": "#0F172A"
+      },
+      "muted": {
+        "DEFAULT": "#E2E8F0",
+        "foreground": "#475569"
+      },
+      "border": "#E2E8F0"
+    },
+    "typography": {
+      "font_family": {
+        "headings": "Outfit",
+        "body": "DM Sans"
+      },
+      "rules": "Headings must use tracking-tight. Use font-light and font-black for contrast. Do not use generic sans for headings."
+    },
+    "spacing_and_layout": {
+      "padding": "Generous spacing. Use py-24 or py-32 for sections.",
+      "grid": "Bento grids with asymmetry. Use col-span-full md:col-span-8 for hero elements.",
+      "border_radius": "Sharp or minimal rounding (rounded-none or rounded-md) for a premium, authoritative look."
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "category": "hero",
+        "url": "https://images.pexels.com/photos/6196223/pexels-photo-6196223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Professional cleaner, used as background for hero section with heavy dark overlay (bg-black/60) to make white and lime green text pop."
+      },
+      {
+        "category": "service_commercial",
+        "url": "https://images.unsplash.com/photo-1740657254989-42fe9c3b8cce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBjb21tZXJjaWFsJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzgwNjg5MzU4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Commercial cleaning floor."
+      },
+      {
+        "category": "service_residential",
+        "url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBob21lJTIwY2xlYW5pbmclMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc4MDY4OTM1OHww&ixlib=rb-4.1.0&q=85",
+        "description": "Clean modern living room."
+      },
+      {
+        "category": "service_windows",
+        "url": "https://images.pexels.com/photos/634007/pexels-photo-634007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Window cleaning."
+      },
+      {
+        "category": "service_garden",
+        "url": "https://images.unsplash.com/photo-1621272156568-7306716648df?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHxsYW5kc2NhcGluZyUyMGdhcmRlbiUyMG1haW50ZW5hbmNlfGVufDB8fHx8MTc4MDY4OTM1OHww&ixlib=rb-4.1.0&q=85",
+        "description": "Garden maintenance."
+      },
+      {
+        "category": "about_team",
+        "url": "https://images.pexels.com/photos/6195129/pexels-photo-6195129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Team of professional cleaners."
+      }
+    ],
+    "icons": {
+      "library": "lucide-react"
+    }
+  },
+  "pages": {
+    "home": {
+      "sections": [
+        {
+          "name": "Header",
+          "components": ["Logo text 'ATLAS'", "Nav Links", "CTA button (Tel)"],
+          "style": "Sticky, backdrop-blur-xl bg-white/80, 1px bottom border border-slate-200. High contrast text."
+        },
+        {
+          "name": "Hero",
+          "components": ["Large animated Slogan", "Subtitle", "CTA 'Demander un devis'", "Background Image with dark overlay"],
+          "style": "Immersive, text-5xl md:text-7xl font-black text-white. Accent words in Lime Green. Generous spacing."
+        },
+        {
+          "name": "Services",
+          "items": [
+            "Nettoyage Résidentiel",
+            "Nettoyage Commercial",
+            "Nettoyage Après Construction",
+            "Entretien de Jardins",
+            "Lavage de Vitres",
+            "Entretien Général"
+          ],
+          "style": "Bento grid or asymmetrical cards. Hover: `-translate-y-1` and shadow-lg. Images used as card backgrounds or headers."
+        },
+        {
+          "name": "Pourquoi Nous Choisir",
+          "items": ["Écologique et responsable", "Fiabilité", "Excellence", "Sur mesure"],
+          "style": "Dark section (bg-[#0A1128]) with lime green icons and white text. High contrast."
+        },
+        {
+          "name": "Processus",
+          "items": ["1. Contact", "2. Évaluation", "3. Service", "4. Suivi"],
+          "style": "Step-by-step horizontal or vertical timeline layout."
+        },
+        {
+          "name": "Témoignages & Galerie",
+          "style": "Simple marquee for testimonials, and a small masonry grid for before/after or cleaning shots."
+        },
+        {
+          "name": "FAQ",
+          "components": ["Accordion"],
+          "style": "Shadcn Accordion customized with sharp borders."
+        },
+        {
+          "name": "Contact & Devis",
+          "components": ["Form inputs", "Submit Button -> Mailto"],
+          "style": "Frontend only. Form triggers window.location.href = 'mailto:atlasmultiservicenettoyage@gmail.com?subject=Demande de devis&body=...'."
+        },
+        {
+          "name": "Footer",
+          "components": ["Brand Slogan", "Phones", "Email", "Location", "Social Links"],
+          "style": "Massive py-20, Dark background (#0A1128), Lime text for links."
+        }
+      ]
+    }
+  },
+  "interactions_and_animations": {
+    "motion": "Use framer-motion for scroll-reveal (staggered fade-up).",
+    "hover": "Buttons should have scale-105 active state. Links should underline or change to lime green on hover."
+  },
+  "technical_requirements": {
+    "frameworks": ["React", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
+    "backend": "NONE. 100% Static frontend.",
+    "seo": "Configure Open Graph meta tags manually in the index.html or Helmet.",
+    "testing": "Add data-testid to all interactive elements (buttons, inputs, accordions)."
+  }
+}
